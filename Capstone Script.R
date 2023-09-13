@@ -67,3 +67,19 @@ all_year_trips %>%
   select(started_at, ended_at) %>% 
   filter(is.na(started_at)) %>% 
   all_year_trips
+
+all_year_trips %>% 
+  select(start_station_name) %>% 
+  filter(is.na(start_station_name)) 
+
+all_year_trips %>% 
+  select(end_station_name) %>% 
+  filter(is.na(end_station_name))
+  
+
+### Removing NAs in Station Names
+library(tidyr)
+all_year_trips <- all_year_trips %>% drop_na(start_station_name)
+all_year_trips <- all_year_trips %>% drop_na(end_station_name)
+
+View(all_year_trips)
