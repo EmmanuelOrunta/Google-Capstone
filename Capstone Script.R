@@ -92,3 +92,15 @@ rep_str = c('1'='Sunday','2'='Monday','3'='Tuesday','4'='Wednesday', '5'='Thursd
 all_year_trips$day_of_week <- str_replace_all(all_year_trips$day_of_week, rep_str)
 
 View(all_year_trips)
+
+### Calculating ride_length in mins
+all_year_trips <- all_year_trips %>% 
+  mutate(ride_length_mins = as.numeric(difftime(all_year_trips$ended_at, all_year_trips$started_at, units="mins")))
+
+### ride length in secs
+all_year_trips <- all_year_trips %>% 
+  mutate(ride_length_secs = as.numeric(difftime(all_year_trips$ended_at, all_year_trips$started_at, units="secs")))
+
+### Removing rows with negative ride lengths
+all_year_trips <- all_year_trips %>% 
+  filter(ride_length_mins > 0)  
