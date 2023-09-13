@@ -4,7 +4,7 @@ install.packages("tidyverse")
 install.packages("lubridate")
 library(tidyverse)
 library(lubridate)
-
+library(stringr)
 
 
 ### Checking the columns of the tables
