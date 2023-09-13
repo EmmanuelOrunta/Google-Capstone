@@ -97,10 +97,10 @@ View(all_year_trips)
 all_year_trips <- all_year_trips %>% 
   mutate(ride_length_mins = as.numeric(difftime(all_year_trips$ended_at, all_year_trips$started_at, units="mins")))
 
-### ride length in secs
+### Calculating ride_length in secs
 all_year_trips <- all_year_trips %>% 
   mutate(ride_length_secs = as.numeric(difftime(all_year_trips$ended_at, all_year_trips$started_at, units="secs")))
 
-### Removing rows with negative ride lengths
+### Removing rows with negative ride_lengths
 all_year_trips <- all_year_trips %>% 
   filter(ride_length_mins > 0)  
