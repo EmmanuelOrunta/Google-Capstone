@@ -51,3 +51,19 @@ duplicated(all_year_trips)
 
 all_year_trips <- distinct(all_year_trips)  #removing duplicates
 View(all_year_trips)
+
+### Selecting and renaming the member_casual column to subscription
+all_year_trips <- all_year_trips %>% 
+  select(ride_id, rideable_type, started_at, ended_at, start_station_name, end_station_name, ride_length, day_of_week, subscription = member_casual)
+
+View(all_year_trips)
+
+### Checking for NAs in Started_at and Ended_at
+all_year_trips %>% 
+  select(started_at, ended_at) %>% 
+  filter(is.na(ended_at))
+
+all_year_trips %>% 
+  select(started_at, ended_at) %>% 
+  filter(is.na(started_at)) %>% 
+  all_year_trips
