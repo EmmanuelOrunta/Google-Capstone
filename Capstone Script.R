@@ -83,3 +83,11 @@ all_year_trips <- all_year_trips %>% drop_na(start_station_name)
 all_year_trips <- all_year_trips %>% drop_na(end_station_name)
 
 View(all_year_trips)
+
+### Renaming text strings in day of week
+library(stringr)
+
+rep_str = c('1'='Sunday','2'='Monday','3'='Tuesday','4'='Wednesday', '5'='Thursday','6'='Friday','7'='Saturday') ### Combining my replacement strings into a vector
+all_year_trips$day_of_week <- str_replace_all(all_year_trips$day_of_week, rep_str)
+
+View(all_year_trips)
