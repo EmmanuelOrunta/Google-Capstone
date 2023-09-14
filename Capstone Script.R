@@ -121,10 +121,9 @@ total_rides_subscription <- all_year_trips %>%
                             count(subscription) %>% 
                             rename(number_of_rides = n)
 
-### The average ride time by weekday for each subscription type
+### The average ride time for each subscription type
 avg_ridetime_subscription <- all_year_trips %>% 
-  mutate(weekday = wday(started_at, label = TRUE)) %>%
-  group_by(subscription, weekday) %>% 
+  group_by(subscription) %>% 
   summarise(avg_time = mean(ride_length_mins)) %>% 
   arrange(desc(avg_time))
 
@@ -133,4 +132,41 @@ total_rides_avgridetime_subscription_perday <- all_year_trips %>%
 mutate(weekday = wday(started_at, label = TRUE)) %>% 
 group_by(subscription, weekday) %>%
   summarise(number_of_rides = n(), average_duration = mean(ride_length_mins)) %>% 		
-  arrange(subscription, weekday)	
+  arrange(subscription, weekday)
+
+### To find the total of rides and avg ride length per month for each type of subscription
+total_rides_avgridetime_subscription_month <- all_year_trips %>%
+  mutate(month = month(started_at, label = TRUE)) %>% 
+  group_by(subscription, month) %>%
+  summarise(number_of_rides = n(), average_duration = mean(ride_length_mins)) %>% 		
+  arrange(subscription, month)
+
+### To find the total of rides and avg ride length for a particular hour in a day for each type of subscription
+total_rides_avgridetime_subscription_time <- all_year_trips %>%
+  mutate(time = hour(started_at)) %>% 
+  group_by(subscription, time) %>%
+  summarise(number_of_rides = n(), average_duration = mean(ride_length_mins)) %>% 		
+  arrange(subscription, time)
+
+### Number of rides for every rideable type in each subscription type
+total_rides_subscription_rideabletype <- all_year_trips %>% 
+  group_by(subscription) %>% 
+  count(rideable_type) %>% 
+  rename(number_of_rides = n)
+
+### Top 10 start stations according number of rides
+total_rides_start_station <- all_year_trips %>% 
+  group_by(start_station_name) %>% 
+  count(start_station_name) %>% 
+  rename(number_of_rides = n) %>% 
+  arrange(desc(number_of_rides)) %>% 
+  head(10)
+
+### Top 10 end stations according number of rides
+total_rides_end_station <- all_year_trips %>% 
+  group_by(end_station_name) %>% 
+  count(end_station_name) %>% 
+  rename(number_of_rides = n) %>% 
+  arrange(desc(number_of_rides)) %>% 
+  head(10)
+
