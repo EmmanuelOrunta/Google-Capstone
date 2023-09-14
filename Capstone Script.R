@@ -120,3 +120,17 @@ total_rides_subscription <- all_year_trips %>%
                             group_by(subscription) %>% 
                             count(subscription) %>% 
                             rename(number_of_rides = n)
+
+### The average ride time by weekday for each subscription type
+avg_ridetime_subscription <- all_year_trips %>% 
+  mutate(weekday = wday(started_at, label = TRUE)) %>%
+  group_by(subscription, weekday) %>% 
+  summarise(avg_time = mean(ride_length_mins)) %>% 
+  arrange(desc(avg_time))
+
+### To find the total of rides and avg ride length per weekday for each type of subscription
+total_rides_avgridetime_subscription_perday <- all_year_trips %>%
+mutate(weekday = wday(started_at, label = TRUE)) %>% 
+group_by(subscription, weekday) %>%
+  summarise(number_of_rides = n(), average_duration = mean(ride_length_mins)) %>% 		
+  arrange(subscription, weekday)	
