@@ -158,6 +158,9 @@ total_rides_subscription_rideabletype <- all_year_trips %>%
   count(rideable_type) %>% 
   rename(number_of_rides = n)
 
+
+### FURTHER EXPLORATORY ANALYSIS
+
 ### Top 10 start stations according number of rides
 total_rides_start_station <- all_year_trips %>% 
   group_by(start_station_name) %>% 
