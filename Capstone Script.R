@@ -104,3 +104,7 @@ all_year_trips <- all_year_trips %>%
 ### Removing rows with negative ride_lengths
 all_year_trips <- all_year_trips %>% 
   filter(ride_length_mins > 0)  
+
+### Removing rows with trips less than one minute
+all_year_trips <- all_year_trips %>% 
+  filter(ride_length_mins > 1)  
