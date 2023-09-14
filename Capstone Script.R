@@ -84,7 +84,7 @@ all_year_trips <- all_year_trips %>% drop_na(end_station_name)
 
 View(all_year_trips)
 
-### DATA TRANSFORMATION
+### DATA TRANSFORMATION and MANIPULATION
 ### Renaming text strings in day of week
 library(stringr)
 
