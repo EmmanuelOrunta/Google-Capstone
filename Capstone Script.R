@@ -108,3 +108,15 @@ all_year_trips <- all_year_trips %>%
 ### Removing rows with trips less than one minute
 all_year_trips <- all_year_trips %>% 
   filter(ride_length_mins > 1)  
+
+
+### DATA ANALYSIS
+
+### Summary Statistics of Ride Length
+summary(all_year_trips$ride_length_mins)
+
+### Number of rides per subscription
+total_rides_subscription <- all_year_trips %>% 
+                            group_by(subscription) %>% 
+                            count(subscription) %>% 
+                            rename(number_of_rides = n)
