@@ -115,6 +115,10 @@ all_year_trips <- all_year_trips %>%
 ### Summary Statistics of Ride Length
 summary(all_year_trips$ride_length_mins)
 
+### Total rides and total number of stations
+total_rides <- n_distinct(all_year_trips$ride_id)   ### Counting the total distinct number of rides from the ride_id column
+total_stations <- n_distinct(all_year_trips$start_station_name) ### Counting the total distinct number of stations from the start_station_name column
+
 ### Number of rides per subscription
 total_rides_subscription <- all_year_trips %>% 
                             group_by(subscription) %>% 
