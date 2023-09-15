@@ -200,7 +200,7 @@ ggplot(total_rides_avgridetime_subscription_time, aes( x=time, y=number_of_rides
   geom_line(position = "dodge") + scale_x_continuous(breaks = scales::pretty_breaks(n = 24)) + 
   scale_y_log10() + labs(title = "Total Trips In A Particular Hour: Casual vs. Member")
 
-### Average RideTime In A Particular Hour: Casual vs. Member
+### Average RideTime In a Particular Hour: Casual vs. Member
 ggplot(total_rides_avgridetime_subscription_time, aes( x=time, y=average_duration, color=subscription, fill=subscription)) + 
   geom_smooth(position = "dodge") + scale_x_continuous(breaks = scales::pretty_breaks(n = 24)) + 
   labs(title = "Average Duration In A Particular Hour: Casual vs. Member")
@@ -211,7 +211,7 @@ ggplot(total_rides_avgridetime_subscription_month, aes(x=month, y=number_of_ride
   labs(title = "Total Trips In A Particular Month: Casual vs. Member")
 
 
-### Average RideTime In A Particular Month: Casual vs. Member
+### Average RideTime In a Particular Month: Casual vs. Member
 ggplot(total_rides_avgridetime_subscription_month, aes(x=month, y=average_duration, group=2, position_dodge(width = 0.2), color=subscription)) + 
   geom_line() + facet_wrap(~subscription) +
   labs(title = "Average Duration In A Particular Month: Casual vs. Member")
