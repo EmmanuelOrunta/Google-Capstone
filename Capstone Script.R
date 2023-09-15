@@ -215,3 +215,13 @@ ggplot(total_rides_avgridetime_subscription_month, aes(x=month, y=number_of_ride
 ggplot(total_rides_avgridetime_subscription_month, aes(x=month, y=average_duration, group=2, position_dodge(width = 0.2), color=subscription)) + 
   geom_line() + facet_wrap(~subscription) +
   labs(title = "Average Duration In A Particular Month: Casual vs. Member")
+
+### SAVING PLOTS
+ggsave("total_rides_subscription.png")
+ggsave("avg_ridetime_subscription.png")
+ggsave("total_rides_subscription_perday.png")
+ggsave("avgridetime_subscription_perday.png")
+ggsave("total_rides_subscription_time.png")
+ggsave("avgridetime_subscription_time.png")
+ggsave("total_rides_subscription_month.png")
+ggsave("avgridetime_subscription_month.png")
