@@ -187,15 +187,15 @@ ggplot(total_rides_subscription, aes( x=number_of_rides, y=subscription, color=s
 ggplot(avg_ridetime_subscription, aes( x=subscription, y=avg_time, color=subscription, fill=subscription)) + 
   geom_col() + labs(title = "Average RideTime: Casual vs. Member")
 
-### Total Trips In A Weekday: Casual vs. Member
+### Total Trips In a Weekday: Casual vs. Member
 ggplot(total_rides_avgridetime_subscription_perday, aes( x=weekday, y=number_of_rides, color=subscription, fill=subscription)) + 
   geom_col(position = "dodge") + labs(title = "Total Trips In A Weekday: Casual vs. Member")
 
-### Average RideTime In A Weekday: Casual vs. Member
+### Average RideTime In a Weekday: Casual vs. Member
 ggplot(total_rides_avgridetime_subscription_perday, aes( x=weekday, y=average_duration, color=subscription, fill=subscription)) + 
   geom_col(position = "dodge") + labs(title = "Average RideTime In A Weekday: Casual vs. Member")
 
-### Total Trips In A Particular Hour: Casual vs. Member
+### Total Trips In a Particular Hour: Casual vs. Member
 ggplot(total_rides_avgridetime_subscription_time, aes( x=time, y=number_of_rides, color=subscription, fill=subscription)) + 
   geom_line(position = "dodge") + scale_x_continuous(breaks = scales::pretty_breaks(n = 24)) + 
   scale_y_log10() + labs(title = "Total Trips In A Particular Hour: Casual vs. Member")
