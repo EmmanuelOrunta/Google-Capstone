@@ -1,4 +1,4 @@
-# Google Capstone
+# GOOGLE CAPSTONE PROJECT
 A Case Study of my Google Data Analytics Capstone Project 
 
 ## SCENARIO
