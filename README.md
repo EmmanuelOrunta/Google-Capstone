@@ -1,5 +1,5 @@
 # GOOGLE CAPSTONE PROJECT
-A Case Study of my Google Data Analytics Capstone Project 
+A Case Study Project for my Google Data Analytics Certificate 
 
 ## SCENARIO
 I'm a junior data analyst working in the marketing analyst team at Cyclistic, a bike-share company in Chicago. The director
