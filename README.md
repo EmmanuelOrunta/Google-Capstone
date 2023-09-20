@@ -1,5 +1,6 @@
 # INTRODUCTION
-A Case Study Project for my Google Data Analytics Certificate 
+This is an optional case study from the Google Data Analytics Course that I recently completed. In this study, I put into practice the Data study Process that I learnt while taking the course by executing real-world responsibilities as a junior data analyst for a fictitious company called Cyclistic.
+
 
 ## SCENARIO
 I'm a junior data analyst working in the marketing analyst team at Cyclistic, a bike-share company in Chicago. The director
