@@ -1,4 +1,4 @@
-# GOOGLE CAPSTONE PROJECT
+# INTRODUCTION
 A Case Study Project for my Google Data Analytics Certificate 
 
 ## SCENARIO
