@@ -7,3 +7,5 @@ In this mock data analysis, I'm assuming the role as a junior data analyst worki
 
 ## BUSINESS QUESTION
 Annual members are more profitable than casual members, according to Cyclistic's financial analysts. The company wants to grasp the distinction between the two sorts of members in order to convert casual users into yearly members. My job is to collect and analyze data to answer the question, "What is the difference between casual riders and annual riders?" Lily Moreno (Director of Marketing), Cyclistic's marketing analytics team, and Cyclistic's executive team are all stakeholders.
+
+## DATA PREPARATION AND CLEANING
