@@ -22,3 +22,5 @@ Here is a summary of my cleaning process. You can check out the full queries on 
 - The member_casual column was renamed to Subscription
 - Empty rows in the start_station_name and end_station_name were removed because they were needed or useful for our analysis.
 - Renaming text strings in day of week column to actual day of the week i.e for 1 to Sunday, 2 to Monday and so on.
+- Calculating ride_length in mins and secs from the started_at and ended_at column
+- 
