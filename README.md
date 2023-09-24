@@ -12,7 +12,7 @@ Annual members are more profitable than casual members, according to Cyclistic's
 To solve the business question, I will analyze the data from Cyclistic's database. The dataset contains data from January 2022 to December 2022 and I downloaded Cyclistic’s historical trip data from [here](https://divvy-tripdata.s3.amazonaws.com/index.html). Motivate International Inc. has made the data available under this [license](https://divvybikes.com/data-license-agreement). It is also cited, objective, innovative, up to date, and comprehensive. However, its data privacy policies prevent me from using personally identifiable information on riders.
 
 ### Data Transfer And Preparation
-RSTUDIO was utilized to import the Excel Workbook files of each month in 2022. The dataset was merged into one dataset labeled all_year_trips. Once the dataset was merged, there were 5,317,314 rows with 7 columns (start_station id, end_station_id, start_lat, star_lng, end_lat, and end_lng were removed since they were not necessary to answering the business question). The columns consisted of ride_id, rideable_type, started_at, ended_at, start_station_name, end_station_name, and member_casual.
+RSTUDIO was utilized to import the Excel Workbook files of each month in 2022. The dataset was merged into one dataset labeled all_year_trips. Once the dataset was merged, there were 5,317,314 rows with 7 columns (start_station id, end_station_id, start_lat, star_lng, end_lat, and end_lng were removed since they were not necessary to answering the business question). The columns consisted of ride_id, rideable_type, started_at, ended_at, start_station_name, end_station_name, and member_casual. Prior to the importation of the datasets into RStudio, Excel was utilized to calculate the weekday on which the rides took place which was stored in the day_of_week column and also the ride length which was stored in the ride_length column. 
 
 ### Data Cleaning and Transformation
 Here is a summary of my cleaning process. You can check out the full queries on one of my [GitHub](https://github.com/EmmanuelOrunta/Google-Capstone/blob/main/Capstone%20Script.R) repositories. 
@@ -21,4 +21,4 @@ Here is a summary of my cleaning process. You can check out the full queries on 
 - There were no duplicates when I checked. Each ride_id was distinct.
 - The member_casual column was renamed to Subscription
 - Empty rows in the start_station_name and end_station_name were removed because they were needed or useful for our analysis.
-- 
+- Renaming text strings in day of week column to actual day of the week i.e for 1 to Sunday, 2 to Monday and so on.
