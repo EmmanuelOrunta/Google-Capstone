@@ -19,3 +19,6 @@ Here is a summary of my cleaning process. You can check out the full queries on 
 
 - Columns that were not required for my analysis were removed (start_station_id, end_station_id, start_lat, start_lng, end_lat, and end_lng).
 - There were no duplicates when I checked. Each ride_id was distinct.
+- The member_casual column was renamed to Subscription
+- Empty rows in the start_station_name and end_station_name were removed because they were needed or useful for our analysis.
+- 
