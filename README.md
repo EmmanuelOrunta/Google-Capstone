@@ -13,3 +13,5 @@ To solve the business question, I will analyze the data from Cyclistic's databas
 
 ### Data Transfer And Preparation
 RSTUDIO was utilized to import the Excel Workbook files of each month in 2022. The dataset was merged into one dataset labeled all_year_trips. Once the dataset was merged, there were 5,317,314 rows with 7 columns (start_station id, end_station_id, start_lat, star_lng, end_lat, and end_lng were removed since they were not necessary to answering the business question).
+
+### Data Cleaning and Transformation
