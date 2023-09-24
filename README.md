@@ -16,3 +16,6 @@ RSTUDIO was utilized to import the Excel Workbook files of each month in 2022. T
 
 ### Data Cleaning and Transformation
 Here is a summary of my cleaning process. You can check out the full queries on one of my [GitHub](https://github.com/EmmanuelOrunta/Google-Capstone/blob/main/Capstone%20Script.R) repositories. 
+
+- Columns that were not required for my analysis were removed (start_station_id, end_station_id, start_lat, start_lng, end_lat, and end_lng).
+- There were no duplicates when I checked. Each ride_id was distinct.
