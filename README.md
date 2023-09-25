@@ -28,8 +28,11 @@ Here is a summary of my cleaning process. You can check out the full code on one
 
 
 ## ANALYSIS AND VISUALIZATION
-The analysis was carried out in RStudio and the data visualizations was also created using RStudio. The following are the steps I carried out during my analysis:
+The analysis was carried out in RStudio and the data visualizations was also created using RStudio. A bulk of my analysis was subjected to the Number of rides and average ride time comparison between casual and member rides. The following are the steps I carried out during my analysis:
 
 - I performed summary statistics with the business question in mind for this phase, focusing on the distinction between members and casual riders.
 - I calculated the total number of rides as well as the total number of stations in Cyclistic.
-- 
+- An analysis was carried out for the Total rides and average ridetime per subscription.
+
+  ![](Total-Rides-Vs-Subscription.png)   
+
