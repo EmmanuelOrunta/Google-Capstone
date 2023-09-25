@@ -31,4 +31,5 @@ Here is a summary of my cleaning process. You can check out the full code on one
 The analysis was carried out in RStudio and the data visualizations was also created using RStudio. The following are the steps I carried out during my analysis:
 
 - I performed summary statistics with the business question in mind for this phase, focusing on the distinction between members and casual riders.
+- I calculated the total number of rides as well as the total number of stations in Cyclistic.
 - 
