@@ -34,9 +34,16 @@ The analysis was carried out in RStudio and the data visualizations was also cre
 - I calculated the total number of rides as well as the total number of stations in Cyclistic.
 - An analysis was carried out for the Total rides and average ridetime per subscription.
 
-             Total Rides                  |        Average Ridetime
-:----------------------------------------:|:----------------------------------------: 
-   ![](Total-Rides-Vs-Subscription.png)   |    ![](avg_ridetime_subscription.png)
 
-    
+   ![](Total-Rides-Vs-Subscription.png)     ![](avg_ridetime_subscription.png)
+
+Member riders had 2561008 rides, while casual riders had 1730953 rides. Though member rides took more rides in the year, the casual members had more ridetime on average, with casual rides averaging almost 25 mins while the members had almost 13 mins on average. This could be due to the fact that maybe members just ride to work, while casual riders usually ride for leisure.
+
+- Analysis on total rides and average ride length per weekday for each type of subscription
+
+
+   ![](total_rides_subscription_perday.png)     ![](avgridetime_subscription_perday.png)
+
+Members usually account for most rides in a weekday but casual rides take more rides on weekends and average more ridetime in each weekday.  
+
 
