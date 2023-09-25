@@ -15,7 +15,7 @@ To solve the business question, I will analyze the data from Cyclistic's databas
 RSTUDIO was utilized to import the Excel Workbook files of each month in 2022. The dataset was merged into one dataset labeled all_year_trips. Once the dataset was merged, there were 5,317,314 rows with 7 columns (start_station id, end_station_id, start_lat, star_lng, end_lat, and end_lng were removed since they were not necessary to answering the business question). The columns consisted of ride_id, rideable_type, started_at, ended_at, start_station_name, end_station_name, and member_casual. Prior to the importation of the datasets into RStudio, Excel was utilized to calculate the weekday on which the rides took place which was stored in form of numbers (1-7) in the day_of_week column and also the ride length which was stored in the ride_length column. 
 
 ### Data Cleaning and Transformation
-Here is a summary of my cleaning process. You can check out the full queries on one of my [GitHub](https://github.com/EmmanuelOrunta/Google-Capstone/blob/main/Capstone%20Script.R) repositories. 
+Here is a summary of my cleaning process. You can check out the full code on one of my [GitHub](https://github.com/EmmanuelOrunta/Google-Capstone/blob/main/Capstone%20Script.R) repositories. 
 
 - Columns that were not required for my analysis were removed (start_station_id, end_station_id, start_lat, start_lng, end_lat, and end_lng).
 - There were no duplicates when I checked. Each ride_id was distinct.
