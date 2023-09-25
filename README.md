@@ -34,5 +34,9 @@ The analysis was carried out in RStudio and the data visualizations was also cre
 - I calculated the total number of rides as well as the total number of stations in Cyclistic.
 - An analysis was carried out for the Total rides and average ridetime per subscription.
 
-  ![](Total-Rides-Vs-Subscription.png)   
+   Total Rides                         |        Average Ridetime
+:-------------------------------------:|:-------------------------------------: 
+![](Total-Rides-Vs-Subscription.png)   |    ![](avg_ridetime_subscription.png)
+
+    
 
