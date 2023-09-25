@@ -19,9 +19,9 @@ Here is a summary of my cleaning process. You can check out the full queries on 
 
 - Columns that were not required for my analysis were removed (start_station_id, end_station_id, start_lat, start_lng, end_lat, and end_lng).
 - There were no duplicates when I checked. Each ride_id was distinct.
-- The member_casual column was renamed to Subscription
+- The member_casual column was renamed to Subscription.
 - Empty rows in the start_station_name and end_station_name were removed because they were needed or useful for our analysis.
 - Renaming text strings in day of week column to actual day of the week i.e from 1 to Sunday, 2 to Monday and so on.
-- Calculating ride_length in mins and secs from the started_at and ended_at column
-- After Calculating the ride length in secs and mins, ride lengths with negative values were removed as they were not needed for the analysis
+- Calculating ride_length in mins and secs from the started_at and ended_at column.
+- After Calculating the ride length in secs and mins, ride lengths with negative values were removed as they were not needed for the analysis.
 - Trips that lasted less than a minute were eliminated since they indicated that the bike had been stolen or was being serviced.
