@@ -25,3 +25,6 @@ Here is a summary of my cleaning process. You can check out the full code on one
 - Calculating ride_length in mins and secs from the started_at and ended_at column.
 - After Calculating the ride length in secs and mins, ride lengths with negative values were removed as they were not needed for the analysis.
 - Trips that lasted less than a minute were eliminated since they indicated that the bike had been stolen or was being serviced.
+
+
+## ANALYSIS AND VISUALIZATION
