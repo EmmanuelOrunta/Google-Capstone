@@ -44,6 +44,11 @@ Member riders had 2561008 rides, while casual riders had 1730953 rides. Though m
 
    ![](total_rides_subscription_perday.png)     ![](avgridetime_subscription_perday.png)
 
-Members usually account for most rides in a weekday but casual rides take more rides on weekends and average more ridetime in each weekday.  
+Members usually account for most rides in a weekday but casual rides take more rides on weekends and average more ridetime in each weekday. 
+
+- Analysis on total rides and average ride length per month for each type of subscription
+
+
+   ![](total_rides_avgridetime_subscription_month.png)     ![](avgridetime_subscription_perday.png)
 
 
