@@ -51,4 +51,5 @@ Members usually account for most rides in a weekday but casual rides take more r
 
    ![](total_rides_avgridetime_subscription_month.png)     ![](avgridetime_subscription_month.png)
 
+Member and annual riders have a similar trajectory in terms of total rides made across the year with the peak periods coming around july for annual riders and member riders have their peak periods around June - August
 
