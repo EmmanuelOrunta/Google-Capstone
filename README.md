@@ -49,6 +49,6 @@ Members usually account for most rides in a weekday but casual rides take more r
 - Analysis on total rides and average ride length per month for each type of subscription
 
 
-   ![](total_rides_avgridetime_subscription_month.png)     ![](avgridetime_subscription_perday.png)
+   ![](total_rides_avgridetime_subscription_month.png)     ![](avgridetime_subscription_month.png)
 
 
