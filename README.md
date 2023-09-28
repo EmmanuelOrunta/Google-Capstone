@@ -56,3 +56,4 @@ Member and annual riders have a similar trajectory in terms of total rides made 
 - Analysis on total rides and average ride length for a particular hour in a day for each type of subscription
 
 
+   ![](total_rides_subscription_time.png)     ![](avgridetime_subscription_time.png)
