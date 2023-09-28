@@ -53,3 +53,6 @@ Members usually account for most rides in a weekday but casual rides take more r
 
 Member and annual riders have a similar trajectory in terms of total rides made across the year with the peak periods coming around july for annual riders and member riders have their peak periods around June - August. Overall, more people ride in the warmer months of June, July, and August than in the colder months of January, February, and December. Both member types appear to favor biking during more stable weather conditions, as opposed to the Chicago winter months.
 
+- Analysis on total rides and average ride length for a particular hour in a day for each type of subscription
+
+
