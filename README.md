@@ -59,3 +59,17 @@ Member and annual riders have a similar trajectory in terms of total rides made 
    ![](total_rides_subscription_time.png)    
 
 Here, we can see that there are more annual members than casual ones. However, casual members ride later in the day while annual members have a spike in the morning (7/8 am) and then again in the evening (5/6 pm). This could be due to annual members going to work, while casual members could be tourists. 
+
+
+-  I also discovered that the most frequently frequented station by casual passengers is Streeter Dr & Grand Ave, whereas the most frequently visited station for yearly members is Kingsbury St & Kinzie St.
+
+
+
+## Insights/Summary
+Differences between Casual and Annual Riders
+
+- Casual riders have a larger gap under harsher weather conditions, but annual riders are more constant throughout the year regardless of weather (there is a dip in January, February, and December).
+-Annual members often ride in the morning and early evening, whereas casual members ride later in the day.
+- There are more annual riders, however casual members tend to ride longer (in minutes). The average ride for casual riders was 26 minutes, double that of annual riders (13 minutes)
+- There’s a more consistent number of annual riders during the weekdays, while casual riders dominate in numbers during the weekend
+- Conclusion: Casual riders use Cyclistic more for leisure and many are tourists (riding along the beach, by restaurants, and shopping districts). While annual riders use the bikes for work. They are often riding in financial and business districts as well as a university and close to apartments.
