@@ -71,5 +71,5 @@ Differences between Casual and Annual Riders
 - Casual riders have a larger gap under harsher weather conditions, but annual riders are more constant throughout the year regardless of weather (there is a dip in January, February, and December).
 -Annual members often ride in the morning and early evening, whereas casual members ride later in the day.
 - Although there are more annual riders, casual members prefer to ride for longer (in minutes). The average ride time for casual cyclists was 26 minutes, which was more than double the time for yearly riders (13 minutes).
-- There’s a more consistent number of annual riders during the weekdays, while casual riders dominate in numbers during the weekend
+- Weekdays see a higher percentage of yearly riders, while weekends see a higher percentage of casual riders.
 - Conclusion: Casual riders use Cyclistic more for leisure and many are tourists (riding along the beach, by restaurants, and shopping districts). While annual riders use the bikes for work. They are often riding in financial and business districts as well as a university and close to apartments.
