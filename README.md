@@ -57,3 +57,5 @@ Member and annual riders have a similar trajectory in terms of total rides made 
 
 
    ![](total_rides_subscription_time.png)     ![](avgridetime_subscription_time.png)
+
+Here, we can see that there are more annual members than casual ones. However, casual members ride later in the day while annual members have a spike in the morning (7/8 am) and then again in the evening (5/6 pm). This could be due to annual members going to work, while casual members could be tourists. 
