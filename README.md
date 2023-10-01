@@ -77,3 +77,5 @@ Differences between Casual and Annual Riders
 
 ## Recommendations
 With all of the facts and findings presented above, there are a few suggestions that may encourage casual members to use Cyclistic's bike-share program. However, because casual members are mostly tourists, converting them to yearly members will be tough. That being stated, here are my three suggestions for resolving this problem:
+
+1. Make a new deal or subscription that includes incentives for weekend getaways, pleasure outings, and long rides.
