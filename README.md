@@ -81,3 +81,5 @@ With all of the facts and findings presented above, there are a few suggestions 
 1. Make a new deal or subscription that includes incentives for weekend getaways, pleasure outings, and long rides. This may be implemented using an app specifically for casual riders, The app can also give casual riders ideas for food, shopping, and sightseeing near the docks where they dock their bikes to make their journey more enjoyable and encourage their willingness to utilize both the app and the bikes.
 
 2. From June through September, create a marketing campaign that highlights the new offer at the top 5 to 10 stations for casual riders. During this period, advertisements can be placed across the city (particularly at the top 10 beginning and ending stations) to promote bike riding and improve riding levels even further.
+
+3. Set up a rewards program for casual riders who upgrade to an annual membership and give them their first two rides free.
