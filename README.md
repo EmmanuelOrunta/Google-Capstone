@@ -2,13 +2,13 @@
 This is an optional case study from the Google Data Analytics Course that I recently completed. In this study, I put into practice the Data study Process that I learnt while taking the course by executing real-world responsibilities as a junior data analyst for a fictitious company called Cyclistic.
 
 
-## BACKGROUND SCENARIO
+# BACKGROUND SCENARIO
 In this mock data analysis, I'm assuming the role as a junior data analyst working in the marketing analyst team at Cyclistic, a bike-share company in Chicago. This company was founded in 2016 with the goal of providing people with alternative modes of transportation using bikes (both classic and electric). Cyclistic has grown their bike-share company to 5,824 geotracked bicycles and 692 stations in Chicago since then. The bikes can be unlocked in one station and locked in another, making it easy to move. This service is currently used by two sorts of members. Casual members (purchase a single or day pass) and annual members (purchase an annual membership). The director of marketing believes the company’s future success depends on maximizing the number of annual memberships. Therefore, my team wants to understand how casual riders and annual members use Cyclistic bikes differently. From these insights, my team will design a new marketing strategy to convert casual riders into annual members. But first, Cyclistic executives must approve my recommendations, so they must be backed up with compelling data insights and professional data visualizations.
 
-## BUSINESS QUESTION
+# BUSINESS QUESTION
 Annual members are more profitable than casual members, according to Cyclistic's financial analysts. The company wants to grasp the distinction between the two sorts of members in order to convert casual users into yearly members. My job is to collect and analyze data to answer the question, "What is the difference between casual riders and annual riders?" Lily Moreno (Director of Marketing), Cyclistic's marketing analytics team, and Cyclistic's executive team are all stakeholders.
 
-## DATA PREPARATION AND CLEANING
+# DATA PREPARATION AND CLEANING
 To solve the business question, I will analyze the data from Cyclistic's database. The dataset contains data from January 2022 to December 2022 and I downloaded Cyclistic’s historical trip data from [here](https://divvy-tripdata.s3.amazonaws.com/index.html). Motivate International Inc. has made the data available under this [license](https://divvybikes.com/data-license-agreement). It is also cited, objective, innovative, up to date, and comprehensive. However, its data privacy policies prevent me from using personally identifiable information on riders.
 
 ### Data Transfer And Preparation
@@ -27,7 +27,7 @@ Here is a summary of my cleaning process. You can check out the full code on one
 - Trips that lasted less than a minute were eliminated since they indicated that the bike had been stolen or was being serviced.
 
 
-## ANALYSIS AND VISUALIZATION
+# ANALYSIS AND VISUALIZATION
 The analysis was carried out in RStudio and the data visualizations was also created using RStudio. A bulk of my analysis was subjected to the Number of rides and average ride time comparison between casual and member rides. The following are the steps I carried out during my analysis:
 
 - I performed summary statistics with the business question in mind for this phase, focusing on the distinction between members and casual riders.
@@ -65,7 +65,7 @@ Here, we can see that there are more annual members than casual ones. However, c
 
 
 
-## Insights/Summary
+# Insights/Summary
 Differences between Casual and Annual Riders
 
 - Casual riders have a larger gap under harsher weather conditions, but annual riders are more constant throughout the year regardless of weather (there is a dip in January, February, and December).
@@ -75,7 +75,7 @@ Differences between Casual and Annual Riders
 - Conclusion: Casual riders primarily utilize Cyclistic for recreation, and many are visitors (cycling along the beach, near restaurants, and retail districts). The bikes are used for work by yearly riders. They frequently ride through financial and business sectors, as well as near a university and apartments.
 
 
-## Recommendations
+# Recommendations
 With all of the facts and findings presented above, there are a few suggestions that may encourage casual members to use Cyclistic's bike-share program. However, because casual members are mostly tourists, converting them to yearly members will be tough. That being stated, here are my three suggestions for resolving this problem:
 
 1. Make a new deal or subscription that includes incentives for weekend getaways, pleasure outings, and long rides. This may be implemented using an app specifically for casual riders, The app can also give casual riders ideas for food, shopping, and sightseeing near the docks where they dock their bikes to make their journey more enjoyable and encourage their willingness to utilize both the app and the bikes.
