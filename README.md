@@ -75,7 +75,7 @@ Differences between Casual and Annual Riders
 - Conclusion: Casual riders primarily utilize Cyclistic for recreation, and many are visitors (cycling along the beach, near restaurants, and retail districts). The bikes are used for work by yearly riders. They frequently ride through financial and business sectors, as well as near a university and apartments.
 
 
-# Recommendations
+# RECOMMENDATIONS
 With all of the facts and findings presented above, there are a few suggestions that may encourage casual members to use Cyclistic's bike-share program. However, because casual members are mostly tourists, converting them to yearly members will be tough. That being stated, here are my three suggestions for resolving this problem:
 
 1. Make a new deal or subscription that includes incentives for weekend getaways, pleasure outings, and long rides. This may be implemented using an app specifically for casual riders, The app can also give casual riders ideas for food, shopping, and sightseeing near the docks where they dock their bikes to make their journey more enjoyable and encourage their willingness to utilize both the app and the bikes.
