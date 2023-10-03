@@ -65,7 +65,7 @@ Here, we can see that there are more annual members than casual ones. However, c
 
 
 
-# Insights/Summary
+# INSIGHTS/SUMMARY
 Differences between Casual and Annual Riders
 
 - Casual riders have a larger gap under harsher weather conditions, but annual riders are more constant throughout the year regardless of weather (there is a dip in January, February, and December).
