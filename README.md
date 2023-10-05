@@ -83,3 +83,6 @@ With all of the facts and findings presented above, there are a few suggestions 
 2. From June through September, create a marketing campaign that highlights the new offer at the top 5 to 10 stations for casual riders. During this period, advertisements can be placed across the city (particularly at the top 10 beginning and ending stations) to promote bike riding and improve riding levels even further.
 
 3. Set up a rewards program for casual riders who upgrade to an annual membership and give them their first two rides for free.
+
+4. Further research might be conducted to determine what variables are common among the top ten stations for casual riders and why there is a rise in July. This will help the team develop fresh services and marketing tactics.
+
